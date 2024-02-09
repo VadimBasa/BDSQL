@@ -1,0 +1,157 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<title>Меню ОРНРМИО ЦТП</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+	<link rel="stylesheet" type="text/css" href="../css/theme.css" media="screen">
+
+<SCRIPT language="JavaScript" src="../inc/matnor.js">
+</SCRIPT>
+</head>
+
+<body topmargin="0" leftmargin="10" rightmargin="0" class="font.left16">
+
+<table border="0" cellpadding="2" cellspacing="0" width="100%">
+
+<tr align="center" valign="center" bgcolor="#29a4fd" class="centered12">
+
+<td>
+
+</td>
+<td>Работа</td>
+<td>Документ</td>
+<td>Отчет</td>
+<td>Проект B0</td>
+<td>Служебные</td>
+</tr>
+
+<tr align="center"  valign="center" bgcolor="#ffffff" class="centered14">
+
+<td>
+&nbsp;
+</td>
+<td><a class="menu_f1" href="javascript: load_frame('../manager/work_ctp.asp')" onMouseOver="window.status='Показать документы, ожидающие утверждения'; return true;" onMouseOut="window.status=''; return true;" onClick="setText(m1);">
+[На утверждение]</a>
+<input name="m1" type="hidden" value="На утверждение">
+</td>
+<td><a class="menu_f1" href="javascript: load_frame('../manager/back_ctp.asp')" onMouseOver="window.status='Показать документы, возвращенные внутри ЦТП'; return true;" onMouseOut="window.status=''; return true;" onClick="setText(m7);"> 
+ [Возврат]</a>
+<input name="m7" type="hidden" value="Возврат">
+</td>
+<td>
+<a class="menu_f1" href="javascript: load_frame('../share/matnorizm.asp')" onMouseOver="window.status='Изменения архива'; return true;" onMouseOut="window.status=''; return true;" onClick="setText(m19);"> 
+[Изменения архива]</a>
+<input name="m19" type="hidden" value="Изменения архива">
+</td>
+<td><a class="menu_f1" href="javascript: load_frame('../rf90/info_rf90.htm')" onMouseOver="window.status='Информация по проекту'; return true;" onMouseOut="window.status=''; return true;" onClick="setText(m180);"> 
+[Инфо по проекту]</a>
+<input name="m180" type="hidden" value="Информация по проекту">
+</td>
+<td> <a class="menu_f1" href="javascript: load_frame('../share/help/menu_h.htm')" onMouseOver="window.status='Справочная подсистема'; return true;" onMouseOut="window.status=''; return true;" onClick="setText(m6);"> 
+[Помощь]</a>
+<input name="m6" type="hidden" value="Справочная подсистема">
+</td>
+</tr>
+
+<tr align="center" valign="center" bgcolor="#ffffff">
+
+<td>
+<a class="menu_f1" href="javascript: parent.location.href='../'" onMouseOver="window.status='Новый сеанс пользователя ИС'; return true;" onMouseOut="window.status=''; return true;" onClick="setText(m9);"> 
+[Новый сеанс]</a>
+<input name="m9" type="hidden" value="Новый сеанс">
+</td>
+<td><a class="menu_f1" href="javascript: load_frame('../manager/kodif_ctp.asp')" onMouseOver="window.status='Показать кодификаторы'; return true;" onMouseOut="window.status=''; return true;" onClick="setText(m2);"> 
+[Кодификаторы]</a>
+<input name="m2" type="hidden" value="Кодификаторы">
+</td>
+<td><a class="menu_f1" href="javascript: load_frame('../manager/me_ctp.asp')" onMouseOver="window.status='Показать документы по металлам'; return true;" onMouseOut="window.status=''; return true;" onClick="setText(m4);"> 
+[Металлы]</a>
+<input name="m4" type="hidden" value="Металлы">
+</td>
+<td><a class="menu_f1" href="javascript: load_frame('../share/error.asp')" onMouseOver="window.status='Ошибки корректировки архива'; return true;" onMouseOut="window.status=''; return true;" onClick="setText(m14);"> 
+[Ошибки]</a>
+<input name="m14" type="hidden" value="Ошибки корректировки архива">
+</td>
+<td>
+<a class="menu_f1" href="javascript: load_frame('../rf90/view_rf90.asp')" onMouseOver="window.status='Просмотр архива В0'; return true;" onMouseOut="window.status=''; return true;" onClick="setText(m190);"> 
+[Просмотр В0]</a>
+<input name="m190" type="hidden" value="Просмотр архива В0">
+</td>
+<td><a class="menu_f1" href="javascript: load_frame('../share/grant.asp')" onMouseOver="window.status='Предоставить свои права доступа другому пользователю ИС'; return true;" onMouseOut="window.status=''; return true;"> 
+[Делегирование]</a>
+</td>
+
+</tr>
+
+<tr align="center" valign="center" bgcolor="#ffffff">
+
+<td>&nbsp;</td>
+
+<td>
+<a class="menu_f1" href="javascript: load_frame('../share/speed_man.asp')" onMouseOver="window.status='Движение документов в ИС'; return true;" onMouseOut="window.status=''; return true;" onClick="setText(m18);"> 
+  [Движение]</a>
+<input name="m18" type="hidden" value="Движение документов в ИС">
+</td>
+
+<td><a class="menu_f1" href="javascript: load_frame('../manager/nm_ctp.asp')" onMouseOver="window.status='Неметаллы'; return true;" onMouseOut="window.status=''; return true;" onClick="setText(m8);"> 
+  [Неметаллы]</a>
+<input name="m8" type="hidden" value="Неметаллы">
+</td>
+<td>
+<a class="menu_f1" href="javascript: load_frame('../share/spsreport.asp')" onMouseOver="window.status='Отчет по текущему состоянию СПС-СПП'; return true;" onMouseOut="window.status=''; return true;" onClick="setText(m26);"> 
+  [Состояние СПС-СПП]</a>
+<input name="m26" type="hidden" value="Состояние СПС-СПП">
+</td>
+<td><a class="menu_f1" href="javascript: load_frame('../rf90/corr_rf90.asp')" onMouseOver="window.status='Корректировка архива В0'; return true;" onMouseOut="window.status=''; return true;" onClick="setText(m80);"> 
+ [Корректировка В0]</a>
+<input name="m80" type="hidden" value="Корректировка архива В0">
+</td>
+<td><a class="menu_f1" href="javascript: openCalc('../share/calc.html');">[Калькулятор]</a></td>
+
+</tr>
+
+<tr align="center" valign="center" bgcolor="#ffffff">
+<td>&nbsp;</td>
+<td>
+<a class="menu_f1" href="javascript: load_frame('../share/nonorm.asp')" onMouseOver="window.status='Отчет по деталям без норм'; return true;" onMouseOut="window.status=''; return true;" onClick="setText(m51);"> 
+[Детали без норм]</a>
+<input name="m51" type="hidden" value="Детали без норм">
+</td>
+<td><a class="menu_f1" href="javascript: load_frame('../share/time_man.asp')" onMouseOver="window.status='Поиск документов по критериям'; return true;" onMouseOut="window.status=''; return true;" onClick="setText(m5);"> 
+[Поиск]</a>
+<input name="m5" type="hidden" value="Поиск">
+</td>
+<td><a class="menu_f1" href="javascript: load_frame('../share/works.asp')" onMouseOver="window.status='Показать текущее состояние системы'; return true;" onMouseOut="window.status=''; return true;" onClick="setText(m27);">
+[Потеряли?]</a>
+<input name="m27" type="hidden" value="Истина где-то рядом..."></td>
+<td>&nbsp;</td>
+<td><a class="menu_f1" href="javascript: load_frame('../share/infousers.asp')" onMouseOver="window.status='Справочник пользователей ИС'; return true;" onMouseOut="window.status=''; return true;" onClick="setText(m25);"> 
+[Пользователи]</a>
+<input name="m25" type="hidden" value="Справочник пользователей ИС">
+</td>
+</tr>
+
+<tr align="center" valign="center" bgcolor="#ffffff">
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>
+<a class="menu_f1" href="javascript: load_frame('../share/kmkdnew.asp')" onMouseOver="window.status='Отчет по текущему состоянию СПС-СПП'; return true;" onMouseOut="window.status=''; return true;" onClick="setText(m206);"> 
+[Новые материалы]</a>
+<input name="m206" type="hidden" value="Новые материалы">
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr bgcolor="#29a4fd" valign="center" align="center" >
+
+<td class="gost" width="150" align="left">Активный раздел:</td>
+<td colspan="5" class="part" width="250" align="left"><div ID="Menutext"></div></td>
+
+</tr>
+</table>
+
+</body>
+</html>
